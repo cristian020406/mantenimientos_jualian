@@ -74,3 +74,5 @@ function cOrdenes () {
 $(document).on('click','.ver',function() {
 				$('#mimodal').modal('show');
 		});
+
+/*°°°°°°°°°°|CODIGO PARA LA VENTANA MODAL|°°°°°°°°°°°°°°°°°*/

@@ -21,13 +21,16 @@
 	box-sizing:border-box;
 	padding: 0px;
 	margin: 0px;
+	/*border: 1px solid orange;*/
 
 }
 
 body{
-	background: url('../imagenes_pagina/images5.jpg')no-repeat;
-	background-size: cover;
-
+	background: url('../images/fondo.png')repeat;
+	background-color: rgb(42, 53, 54);
+ 	background-size: auto;
+    background-position: 50% 50%;
+   background-repeat: repeat;
 
 }
 
@@ -40,6 +43,9 @@ body{
 #menu{
 	width: 100%;
 	height: 100px;
+	background: url('../images/fondo1.png');
+	background-size: contain;
+	/*border-radius: 5px;*/
 }
 
 
@@ -47,20 +53,19 @@ body{
 /* °°°°°°°|codigo para el formulario de registro|°°°°°°°°°°° */
 
 #formulario{
-	box-shadow: 0px 0px 3px 8px #3E86AC;
+	border: 1px solid #00adb8;
 	width: 55%;
 	height: 480px;
 	margin: 0 auto;
-	background: #fff;
+background:none repeat scroll 0 0 rgba(0,0,0,0.3);
 	border-radius: 6px;
 }
 
 .slider{
 	display: inline-block;
 	width: 40%;
-	background: url('../imagenes_pagina/user.png')no-repeat, #dbdbdb;
-	background-size: contain, 100% 100%;
-	background-position: 30% 50%, 0%;
+	background: url('../images/dragon.png')no-repeat;
+	background-size: contain;
 	height: 100%;
 	margin-left: -4px;
 	border-radius: 10px 0px 0px 10px;
@@ -84,7 +89,7 @@ margin:30px auto;
 div>label{
 	text-align: center;
 	line-height: 40px;
-	color: #ddd;
+	color: #00adb8;
 	font-size: 20px;
 	font-family: 'titulos2';
 	font-weight: bold;
@@ -94,7 +99,11 @@ div>input{
 	width: 50%;
 	height: 40px;
 	float: right;
+	background: rgba(3, 130, 139, 0.5);
+	border: 2px solid #03828b;
+	color: white;
 }
+
 
 .ml-button-9{
 	clear: both;
@@ -108,46 +117,31 @@ div>input{
 .titulo{
 		font-family: titulos !important;
 		font-size: 50px;
-		color: white;
+		color: #00adb8;
 		text-align: center;
 		list-style: none;
+		font-weight: bold;
 }
 
-.ml-button-9 {
-	background-color: #80AFCC;
-	border: 1px solid #3082AB;
-	-moz-box-shadow:inset 0px 0px 1px rgba(61,150,185,1);
-	-webkit-box-shadow:inset 0px 0px 1px rgba(61,150,185,1);
-	box-shadow:inset 0px 0px 1px rgba(61,150,185,1);
-	background-image: -o-linear-gradient(90deg , rgb(125,169,190) 0%, rgb(174,217,241) 100%);
-	background-image: -moz-linear-gradient(90deg , rgb(125,169,190) 0%, rgb(174,217,241) 100%);
-	background-image: -webkit-linear-gradient(90deg , rgb(125,169,190) 0%, rgb(174,217,241) 100%);
-	background-image: -ms-linear-gradient(90deg , rgb(125,169,190) 0%, rgb(174,217,241) 100%);
-	background-image: linear-gradient(90deg , rgb(125,169,190) 0%, rgb(174,217,241) 100%);
-	color: #135E83;
-	text-shadow: rgba(255,255,255,0.5) 0px 1px 0px;
+.btn{
+	border: 1px solid #00adb8;
+	background: rgba(3, 130, 139, 0.4);
+	font-weight: bold;
+	font-size: 15px;
 }
+.btn:hover{
+	background: rgba(3, 130, 139, 0.8);
+	cursor: pointer;
 
-/*Hover*/
-.ml-button-9:hover {
-	background-color: #AED1E7;
-	background-image: -o-linear-gradient(90deg , rgb(152,193,216) 0%, rgb(193,222,239) 100%);
-	background-image: -moz-linear-gradient(90deg , rgb(152,193,216) 0%, rgb(193,222,239) 100%);
-	background-image: -webkit-linear-gradient(90deg , rgb(152,193,216) 0%, rgb(193,222,239) 100%);
-	background-image: -ms-linear-gradient(90deg , rgb(152,193,216) 0%, rgb(193,222,239) 100%);
-	background-image: linear-gradient(90deg , rgb(152,193,216) 0%, rgb(193,222,239) 100%);
 }
+.info{
+	background: rgba(0,0,0,0.8);
+	width: 100%;
+	margin:0 auto;
+	height: 100px;
+	color: #d84202;
+	font-weight: bold;
+	text-align: center;
+	font: 40px/80px Verdana;
 
-/*Active*/
-.ml-button-9:active {
-	background-color: #72A0BA;
-	-moz-box-shadow:inset 0px 0px 5px rgba(61,150,185,1);
-	-webkit-box-shadow:inset 0px 0px 5px rgba(61,150,185,1);
-	box-shadow:inset 0px 0px 5px rgba(61,150,185,1);
-	background-image: -o-linear-gradient(90deg , rgb(174,217,241) 0%, rgb(125,169,190) 100%);
-	background-image: -moz-linear-gradient(90deg , rgb(174,217,241) 0%, rgb(125,169,190) 100%);
-	background-image: -webkit-linear-gradient(90deg , rgb(174,217,241) 0%, rgb(125,169,190) 100%);
-	background-image: -ms-linear-gradient(90deg , rgb(174,217,241) 0%, rgb(125,169,190) 100%);
-	background-image: linear-gradient(90deg , rgb(174,217,241) 0%, rgb(125,169,190) 100%);
-	text-shadow: none;
 }
